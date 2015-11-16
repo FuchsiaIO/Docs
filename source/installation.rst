@@ -68,4 +68,16 @@ Navigate your browser to localhost:8080 and see the welcome message
 
 .. code-block:: bash
 
-  See me in application/views/index/index.php! 
+  See me in application/views/index/index.php!
+  
+If you wish to use Apache or Nginx, you simply need to write an htaccess rule that routes ALL requests through index.php
+
+.. code-block:: text
+
+  RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
+  
+Apache with the HHVM running as a CGI service would look something like this
+
+.. code-block:: text
+
+  RewriteRule ^(.*)$ fcgi://127.0.0.1:9000/my/full/path/public_html/index.php?/$1 [L,P,QSA]
