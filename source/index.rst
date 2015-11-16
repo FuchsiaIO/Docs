@@ -13,3 +13,4 @@ Contents
    introduction
    features
    mvc
+   installation

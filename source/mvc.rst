@@ -7,7 +7,9 @@ MVC Pattern
 Routes
 ------------------
 Routes handle how a specific URL is sent through your application. By default, all requests, excluding various file extensions, will be sent through index.php. Take the following request for example:
-.. code-block:: bash
+
+.. code-block:: text
+
   http://fuchsia.io/blog/
   
 Unless otherwise specified in routes.php, Fuchsia will attempt to route to a blogController and its index action.
