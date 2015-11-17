@@ -14,3 +14,6 @@ Contents
    features
    mvc
    installation
+   gettingstarted
+   routes
+   controllers
