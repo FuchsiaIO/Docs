@@ -8,7 +8,7 @@ Introduction
 Fuchsia is a Web Application Framework
 ------------------
 
-Fuchsia is a light-weight toolkit targeting developers who build web applications in PHP. Its goal is to provide an environment in which nothing but what is used in your codebase per-request is loaded (lazy-loading). It enables developers to logically structure their code while enforcing some coding standards.
+Fuchsia is a light-weight toolkit targeting developers who build web applications in PHP. Its goal is to provide an environment in which nothing but what is used in your codebase per-request is loaded (lazy-loading). It enables developers to logically structure their code while enforcing some coding standards. It is a collection of packages developed by AuraPHP, Phinx, Fuchsia, Symphony, and others, glued into a single environment.
 
 Fuchsia is Free
 ------------------

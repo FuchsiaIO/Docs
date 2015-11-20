@@ -27,3 +27,7 @@ ActiveSupport
 ------------------
 * BaseDecorator Implementation
 * Much more under development!
+
+Migrations
+------------------
+* Database migrations by Phinx
